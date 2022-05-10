@@ -2,6 +2,7 @@
 session_start();
 
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -17,36 +18,30 @@ session_start();
 
 <body>
     <main>
-        <form action="auth.php" method="post" enctype="multipart/form-data">
+        <form action="sigin.php" method="post" enctype="multipart/form-data">
         <div class="circle"> </div>
             <div class="register-form-container">
                 <h1 class="form-title">
-                    Регистрация
+                    Авторизация
                 </h1>
                 <div class="form-fields">
-                    <div class="form-field">
-                        <input type="text" name="name" placeholder="Имя">
-                    </div>
                     <div class="form-field">
                         <input type="email" name="email" placeholder="Почта">
                     </div>
                     <div class="form-field">
                         <input type="text" name="password" placeholder="Пароль">
                     </div>
-                    <div class="form-field">
-                        <input type="text" name="password_confirm" placeholder="Подтвердить пароль">
-                    </div>
                 </div>
                 <div class="form-buttons">
-                    <button class="button"> Регистрация </button>
-                    <div class="devider"> Есть аккаунт?
-                    <a href="authorization.php" class="link"> Войдите </a>
+                    <button class="button"> Авторизация </button>
+                    <div class="devider"> Нет аккаунта?
+                    <a href="registration.php" class="link"> Зарегистрируйтесь </a>
                     </div> 
                         <?php
-                            if ($_SESSION['message']){
-                                echo '<p class="message">' .$_SESSION['message'] . '</p>';
-                            } 
-                            unset ($_SESSION['message']);
+                         if ($_SESSION['message']){
+                            echo '<p class="message">' .$_SESSION['message'] . '</p>';
+                        } 
+                        unset ($_SESSION['message']);
                         ?> 
             
                 </div>
