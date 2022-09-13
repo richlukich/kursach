@@ -25,7 +25,7 @@ session_start();
                 </h1>
                 <div class="form-fields">
                     <div class="form-field">
-                        <input type="text" name="name" placeholder="Имя">
+                        <input type="text" name="login" placeholder="Логин">
                     </div>
                     <div class="form-field">
                         <input type="email" name="email" placeholder="Почта">

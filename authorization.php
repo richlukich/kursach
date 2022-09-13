@@ -18,7 +18,7 @@ session_start();
 
 <body>
     <main>
-        <form action="sigin.php" method="post" enctype="multipart/form-data">
+        <form action="signin.php" method="post" enctype="multipart/form-data">
         <div class="circle"> </div>
             <div class="register-form-container">
                 <h1 class="form-title">

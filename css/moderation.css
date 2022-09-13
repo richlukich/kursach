@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+.reviews{
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.review{
+    color: white;
+    margin:auto;
+    display:block;
+    margin-top: 10px;
+    width:1000px;
+    height: 230px;
+    border: 2px outset rgb(168, 141, 64);
+    border-radius: 5;
+
+}
+.article{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+.date {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gray;
+}
+.text{
+    width: 1000px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    
+    
+}
+
+.button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left:20px;
+    border: 2px solid;
+    border-radius: 1px;
+    width:100px;
+    height: 30px;
+    background-color: rgb(168, 141, 64);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: yellow;
+}
+
+

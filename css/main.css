@@ -1,0 +1,154 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.block{
+    background: #000;
+    position: fixed;
+    z-index: -1;
+}
+.block img {
+	opacity: 0.6;
+}
+
+
+.chapter{
+    font-size: 700%;
+    font-family: serif;
+    font-weight: bold;
+    padding-top: 40vh;
+    padding-bottom: 50vh;
+    display:flex;
+    color:rgb(168, 141, 64);
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    float:left;
+    background: rgb(0, 0, 0);
+    width:300px;
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    border: 4px groove rgb(168, 141, 64);
+
+}
+
+.reviews{
+    margin-left:300px;
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    display: block;
+    margin:auto;
+    height: 100%;
+    width: auto;
+}
+.profile {
+    margin-top: 200px;
+    width: 300px;
+    height: 150px;
+    text-transform: uppercase;
+    color: rgb(168, 141, 64);
+
+
+}
+
+.profile img {
+    border: 3px outset rgb(168, 141, 64);
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    height: 100px;
+    width: 100px;
+}
+
+.link{
+    color: rgb(168, 141, 64);
+    display: block;
+    margin-top: 20px;
+    text-align:center;
+    text-decoration: none;
+}
+.review{
+    color: white;
+    margin:auto;
+    display:block;
+    margin-top: 10px;
+    width:1000px;
+    height: 230px;
+    border: 2px outset rgb(168, 141, 64);
+    border-radius: 5;
+
+}
+.article{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+.date {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gray;
+}
+.text{
+    width: 1000px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    
+    
+}
+.link{
+    color:white;
+    cursor: pointer;
+}
+
+.button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left:20px;
+    border: 2px solid;
+    border-radius: 1px;
+    width:100px;
+    height: 30px;
+    background-color: rgb(168, 141, 64);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: yellow;
+}
+
+
